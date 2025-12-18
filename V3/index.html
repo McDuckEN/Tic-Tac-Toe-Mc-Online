@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دوز</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body dir="rtl">
+    <br>
+
+    <center>
+        <br>
+        <br>
+        <div class="main">
+            <br>
+            <h1 style="font-size: 20px;">سیستم : O  |  کاربر : X</h1>
+            <br>
+            <table>
+                <tr>
+                    <td class="btn" id="0" style="    display:none;" ></td>
+                    <td class="btn" id="1" onclick="btns_Click()"></td>
+                    <td class="btn" id="2" onclick="btns_Click()"></td>
+                    <td class="btn" id="3" onclick="btns_Click()"></td>
+                </tr>
+                <tr>
+                    <td class="btn" id="4" onclick="btns_Click()"></td>
+                    <td class="btn" id="5" onclick="btns_Click()"></td>
+                    <td class="btn" id="6" onclick="btns_Click()"></td>
+                </tr>
+                <tr>
+                    <td class="btn" id="7" onclick="btns_Click()"></td>
+                    <td class="btn" id="8" onclick="btns_Click()"></td>
+                    <td class="btn" id="9" onclick="btns_Click()"></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <button id="btnReset" onclick = "btn_Reset()">بازی جدید</button>
+    </center>
+    
+    <div id="endGame">
+        <div id="lblMessage"></div>
+    </div>
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
